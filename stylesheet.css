@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 .Header {
@@ -49,27 +50,108 @@ li {
 .centerheader h2{
     color: #E5E7EB;
     font-size: 18px;
+    width: 450px;
 }
 
-.image {
-    width: 100px;
-    height: 100px;
+.image1 {
+    width: 350px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
 }
-img{
-    width:  365px;
-    height: 250px;
-}
-
-button {
+.centerheader button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
     width: 72px;
     height: 32px;
+    margin-left: 20px;
 }
 
 button:hover{
     background-color: rgb(158, 236, 158);
     cursor: pointer;
 }
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 600px;
+    flex: 1;
+}
+div .content.item {
+    flex-direction: column;
+}
+
+div .content.item img{
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 200;
+    border-radius: 15px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 300px;
+    margin-top: 50px;
+}
+.container2 {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.quoteofbox {
+    font-size: 20px;
+}
+.Quote.Author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.signupbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container3 {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    background-color:  #3882F6;
+    height: 150px;
+    width: 600px;
+}
+.textsignup {
+    margin-right: 15px;
+    color: #E5E7EB;
+}
+
+.signupbutton {
+    margin-left: 15px;
+    border-style: solid;
+    border-width: thin;
+    border-color: white;
+    background-color: #3882F6;
+    color:white;
+}
+
